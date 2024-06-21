@@ -227,6 +227,13 @@ nav{
     width: 380px;
     height: 380px;
     object-fit: contain;
+    border: 3px solid var black;
+    transition: border-color 0.3s;
+}
+#avatar:hover{
+    animation-play-state: paused;
+    transform: scale(1.1);
+    border-color: white;
 }
 @keyframes imgfloat{
     50%{
@@ -500,6 +507,18 @@ footer{
 .bottom-footer{
     font-size: 14px;
     margin-top: 10px;
+}
+#footer a{
+    color: var(--text-color-second);
+    text-decoration: none;
+    font-weight: 500;
+}
+#footer a:hover{
+    color: #00B5E7;
+    letter-spacing: 2.5px;
+    text-shadow: 2px 2px 5px var(--first-shadow-color);
+    font-weight: 700;
+    text-decoration: line-through;
 }
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){

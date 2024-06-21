@@ -9,7 +9,7 @@ function myMenufunction(){
     }
 }
 // add shadow in navigation bar with scrolling
-window.onscroll = function{headershadow()};
+window.onscroll = function(){headershadow()};
 
 function headershadow(){
     const navHeader = document.getElementById("header");

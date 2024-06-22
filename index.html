@@ -41,7 +41,7 @@
                 </ul>
             </div>
             <div class="nav-button">
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                <button class="btn"><a href="CV.docx">Download CV</a>  <i class="uil uil-file-alt"></i></button>
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="mymenufunction()"></i>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="featured-text-btn">
                         <button class="btn blue-btn"> Hire me</button>
-                        <button class="btn"> download cv <i class="uil uil-file-alt"></i></button>
+                        <button class="btn"> <a href="CV.docx">download cv</a> <i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social-icon">
                         <div class="icon"><i class="uil uil-instagram"></i></div>
@@ -176,7 +176,7 @@
                         </div>
                     </div>
                     <!-- contact form -->
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="formcontrol" id="formcontrol">
                             <div class="form-inputs">
                                 <input type="text" class="input-filed" placeholder="Name" style="color: black;">
@@ -184,14 +184,32 @@
                                 <input type="text" placeholder="+92" style="color: black;">
                             </div>
                             <div class="text-area">
-                                <textarea placeholder="Message"style="margin: 9px 5px;
-        color: black;"></textarea>
+                                <textarea placeholder="Message"></textarea>
                             </div>
                             <div class="form-button">
                                 <button class="btn">Send <i class="uil uil-message"></i></button>
                             </div>
                         </div>
+                </div> -->
+
+
+                <div class="mycontact">
+                    <h2>Get in touch</h2>
+                    <form id="myform">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+            
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
+
+                <!-- contact form end -->
               </section>
           </main>
           <!-- footer -->

@@ -86,3 +86,24 @@ function scrollActive(){
     })
 }
 window.addEventListener("scroll", scrollActive)
+
+// contact form
+const form = document.getElementById('myform');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault(); // Prevent form submission
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Validate fields (you can add more checks here)
+    if (!name || !email || !message) {
+        alert('Please fill out all fields.');
+        return;
+    }
+
+    // Submit the form (you can send data to a server here)
+    console.log('Form submitted:', { name, email, message });
+});
+// contact form end

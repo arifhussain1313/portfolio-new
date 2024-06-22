@@ -436,7 +436,7 @@ h3{
     z-index: 2;
 }
 /* ----- CONTACT FORM ----- */
-.form-control{
+/* .form-control{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -479,7 +479,41 @@ textarea{
 .form-button i{
     font-size: 18px;
     rotate: -45deg;
+} */
+
+.mycontact {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+/* contact form end */
 /* ----- FOOTER BOX ----- */
 footer{
     display: flex;

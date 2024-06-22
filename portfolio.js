@@ -86,7 +86,6 @@ function scrollActive(){
     })
 }
 window.addEventListener("scroll", scrollActive)
-
 // contact form
 const form = document.getElementById('myform');
 
